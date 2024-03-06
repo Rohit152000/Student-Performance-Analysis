@@ -7,9 +7,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-//import com.telusko.quizapp.model.Question;
-//import com.telusko.quizapp.model.Question;
-//import com.telusko.quizapp.model.Student;
+
 import com.spms.quizapp.model.StudentResult;
 
 public interface StudentDao extends JpaRepository<StudentResult, Integer> {
